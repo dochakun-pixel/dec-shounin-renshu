@@ -1,0 +1,6 @@
+.env
+.env.*
+!.env.example
+node_modules/
+# 共通部品の secrets.js は秘密情報そのものではないので、PC 全体の除外設定（*secret*）から外す
+!app/lib/secrets.js
